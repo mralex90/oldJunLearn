@@ -32,8 +32,18 @@
     <h3 class="sum"></h3>
     <h3 class="multiply">0</h3>
     <h4 class="minus">0</h4>
+    <h5 class="add-text"> </h5>
 
     <script type="text/javascript">
+
+    let addText = document.querySelector('.add-text')
+    let firstName = "Oldest"
+    let lastName = "Junior"
+    let age = 30 
+
+    //let fullName = firstName + " " + lastName + " " + age + " " + "years old"
+    let fullName = `${firstName} ${lastName} ${age} years old `
+    addText.innerText = fullName
 
     let yourGreatMinus = document.querySelector(".minus")
     yourGreatMinus.innerText = 15 - 2
