@@ -33,8 +33,23 @@
     <h3 class="multiply">0</h3>
     <h4 class="minus">0</h4>
     <h5 class="add-text"> </h5>
+    <h5 class="car"></h5>
+    <h4 class="cars"></h4>
 
     <script type="text/javascript">
+
+    let carOne = "BMW"
+    let carTwo = "Audi"
+    let carThree = "Tesla"
+
+    let cars = ["BMW", "Audi", "Tesla"]   //массив
+    let myCars = document.querySelector('.cars')
+    myCars.innerText = cars[0]
+    
+
+    let car = document.querySelector('.car')
+    let myCar = {model: "Audi", year: 2020, color: "black"}
+    car.innerText = `Model is ${myCar.model} color ${myCar.color} and year is ${myCar.year}`
 
     let addText = document.querySelector('.add-text')
     // let firstName = "Oldest"
