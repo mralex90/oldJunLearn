@@ -37,17 +37,14 @@
     <script type="text/javascript">
 
     let addText = document.querySelector('.add-text')
-    let firstName = "Oldest"
-    let lastName = "Junior"
-    let age = 30 
+    // let firstName = "Oldest"
+    // let lastName = "Junior"
+    // let age = 30 
 
-    let fullName = "hi"
+    let person = {firstName: "Oldest", lastName: "Junior", age:30}
 
-    let person = {firstName: "Oldest", lastName: "Junior, age:30"}
-
-    //let fullName = firstName + " " + lastName + " " + age + " " + "years old"
+    let fullName = `${person.firstName} ${person.lastName} ${person.age} `
     
-    let fullName = `${person.firstName} ${person.lastName} ${person.age} years old `
     addText.innerText = fullName
 
     let yourGreatMinus = document.querySelector(".minus")
