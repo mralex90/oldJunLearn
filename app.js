@@ -1,13 +1,13 @@
-function add() {
-    return 2 + 4
+function add(a, b, c) {
+    return a + b + c
 }
 
-function greeting(name) {
-    
-    return `Hello ${name}`
+function greeting(something) {
+
+    return `Hi ${something}`
 }
 
 let headerOne = document.querySelector('.header')
 
-headerOne.innerText = greeting("Oldest Junior")
+headerOne.innerText = add(1, 2, 3)
 
