@@ -1,49 +1,15 @@
-let carOne = "BMW"
-let carTwo = "Audi"
-let carThree = "Tesla"
+let headerOne = document.querySelector('.header')
 
-let cars = ["BMW", "Audi", "Tesla"]   //массив
-//cars.push("Mers")
-// cars.pop()
-cars.shift()
-cars.unshift("Mers")
+headerOne.innerText = 1 + 1
 
-let myCars = document.querySelector('.cars')
-myCars.innerText = cars
-    
-let car = document.querySelector('.car')
-let myCar = {model: "Audi", year: 2020, color: "black"}
-car.innerText = `Model is ${myCar.model} color ${myCar.color} and year is ${myCar.year}`
+let headerTwo = document.querySelector('.header-two')
 
-let addText = document.querySelector('.add-text')
-// let firstName = "Oldest"
-// let lastName = "Junior"
-// let age = 30 
+headerTwo.innerText = 1 + 1
 
-let person = {firstName: "Oldest", lastName: "Junior", age:30}
+let headerThree = document.querySelector('.header-three')
 
-let fullName = `${person.firstName} ${person.lastName} ${person.age} `
-    
-addText.innerText = fullName
+headerThree.innerText = 1 + 1
 
-let yourGreatMinus = document.querySelector(".minus")
-yourGreatMinus.innerText = 15 - 2
-    
-let myHeader = document.querySelector(".header")
-myHeader.innerText = "Hi"
+let headerFour = document.querySelector('.header-four')
 
-let myName = document.querySelector(".name")
-myName.innerText = "Oleksandr"
-    
-let yourPlus = document.querySelector(".plus")
-innerText = 21 + 41
-    
-let numberOne = 10
-let numberTwo = 15
-let mySum = numberOne + numberTwo
-
-let sumElement = document.querySelector(".sum")
-sumElement.innerText = mySum
-
-let multElement = document.querySelector(".multiply")
-multElement.innerText = 5 * 10
+headerFour.innerText = 1 + 1
