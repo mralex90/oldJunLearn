@@ -1,0 +1,16 @@
+.header{
+    color: red;
+}
+.name{
+    color: blue;
+}
+.sum{
+    color: orange
+}
+.multiply{
+    background-color: yellow;
+}
+.minus{
+    color: coral;
+    border: 1px solid red;
+}
