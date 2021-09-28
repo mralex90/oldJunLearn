@@ -1,13 +1,5 @@
-function add(a, b, c) {
-    return a + b + c
-}
+let myButton = document.querySelector('.my-button')
+let myInput = document.querySelector('.my-input')
+let myHeader = document.querySelector('.header')
 
-function greeting(something) {
-
-    return `Hi ${something}`
-}
-
-let headerOne = document.querySelector('.header')
-
-headerOne.innerText = add(1, 2, 3)
-
+myHeader.innerText = "Привет " + myInput.value  
