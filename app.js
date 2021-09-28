@@ -7,7 +7,7 @@ myButton.addEventListener('click', function(){
     let amount = parseInt(myInput.value)
     let VAT = 0.15
 
-    myHeader.innerText = amount * VAT
+    myHeader.innerText = `Сумма НДС с ${amount} равна ${amount * VAT}` 
 })
 
 
