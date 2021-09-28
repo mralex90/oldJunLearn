@@ -5,5 +5,8 @@ let myHeader = document.querySelector('.header')
  
 
 myButton.addEventListener('click', function(){
-    myHeader.innerText = "Привет " + myInput.value
+
+    let inputValue = myInput.value
+
+    myHeader.innerText = `Привет ${inputValue}`
 })
