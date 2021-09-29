@@ -11,10 +11,10 @@ let resultText = document.querySelector('.result')
 plusButton.addEventListener('click', function(){
 
     let numOne = parseInt(numberOne.value)
-    // let numTwo = parseInt(numberTwo.value)
-    let numTwo 
+    let numTwo = parseInt(numberTwo.value)
+    
 
-    let sum = numOne + numberTwo
+    let sum = numOne + numTwo
 
     resultText.innerText = sum
 
