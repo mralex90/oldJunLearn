@@ -1,24 +1,14 @@
-let numberOne = document.querySelector('.number')
-let button = document.querySelector('.button')
-let result = document.querySelector('.result')
+let myInput = document.createElement('input')
+myInput.setAttribute('type', 'number')
 
-button.addEventListener('click', function(){
+let myButton = document.createElement('button')
+myButton.innerText = 'Показать'
 
-    let price = 100
-    let age = numberOne.value
+let myParag = document.createElement('p')
+myParag.innerText = 'Здесь что-то написано'
 
-    //Если младше 8 лет, цена = 0
-    if(age < 8){
-        price = 0
-    } else if(age < 20){
-        price = price * 0.8
-    } else if(age > 20){
-        price = price
-    }
-    
 
-    
-
-    result.innerText = `Цена билета равна ${price}`
-
-})
+let body = document.querySelector('body')
+body.appendChild(myInput)
+body.appendChild(myButton)
+body.appendChild(myParag)
