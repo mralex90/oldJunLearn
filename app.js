@@ -6,7 +6,13 @@ let minusButton = document.querySelector('.minus')
 let divideButton = document.querySelector('.divide')
 let multiplyButton = document.querySelector('.multiply')
 
+let clearButton = document.querySelector('.clear')
+
 let resultText = document.querySelector('.result')
+
+clearButton.addEventListener('click', function(){
+    resultText.innerText = ''
+})
 
 plusButton.addEventListener('click', function(){
 
