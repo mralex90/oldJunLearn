@@ -34,8 +34,20 @@ minusButton.addEventListener('click', function(){
     let numTwo = parseInt(numberTwo.value)
     
 
-    let sum = numOne - numTwo
+    let minus = numOne - numTwo
 
-    resultText.innerText = sum
+    resultText.innerText = minus
+
+})
+
+divideButton.addEventListener('click', function(){
+
+    let numOne = parseInt(numberOne.value)
+    let numTwo = parseInt(numberTwo.value)
+    
+
+    let divide = numOne / numTwo
+
+    resultText.innerText = divide
 
 })
