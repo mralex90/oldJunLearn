@@ -1,29 +1,21 @@
-let myButton = document.querySelector('.my-button')
-let myInput = document.querySelector('.my-input')
-let myHeader = document.querySelector('.header')
+let numberOne = document.querySelector('.number-one')
+let numberTwo = document.querySelector('.number-two')
 
-myButton.addEventListener('click', function(){
+let plusButton = document.querySelector('.plus')
+let minusButton = document.querySelector('.minus')
+let divideButton = document.querySelector('.divide')
+let multiplyButton = document.querySelector('.multiply')
+
+let resultText = document.querySelector('.result')
+
+plusButton.addEventListener('click', function(){
+
+    let numOne = parseInt(numberOne.value)
+    let numTwo = parseInt(numberTwo.value)
     
-    let amount = parseInt(myInput.value)
-    let VAT = 0.15
 
-    myHeader.innerText = `Сумма НДС с ${amount} равна ${amount * VAT}` 
+    let sum = numOne + numTwo
+
+    resultText.innerText = sum
+
 })
-
-
-// let myButton = document.querySelector('.my-button')
-// let myInput = document.querySelector('.my-input')
-// let myHeader = document.querySelector('.header')
-// let mySecondInput = document.querySelector('.input-two')
- 
-
-// myButton.addEventListener('click', function(){
-
-//     let inputValue = parseInt(myInput.value)
-
-//     let secondInputValue = parseInt(mySecondInput.value)
-
-//     myHeader.innerText = inputValue + secondInputValue
-
-//     //myHeader.innerText = `${secondInputValue} ${inputValue}`
-// })
