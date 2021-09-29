@@ -12,6 +12,8 @@ let resultText = document.querySelector('.result')
 
 clearButton.addEventListener('click', function(){
     resultText.innerText = ''
+    numberOne.value = ''
+    numberTwo.value = ''
 })
 
 plusButton.addEventListener('click', function(){
