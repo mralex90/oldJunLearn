@@ -51,3 +51,15 @@ divideButton.addEventListener('click', function(){
     resultText.innerText = divide
 
 })
+
+multiplyButton.addEventListener('click', function(){
+
+    let numOne = parseInt(numberOne.value)
+    let numTwo = parseInt(numberTwo.value)
+    
+
+    let multiply = numOne * numTwo
+
+    resultText.innerText = multiply
+
+})
