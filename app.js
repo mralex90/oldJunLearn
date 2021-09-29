@@ -27,3 +27,15 @@ plusButton.addEventListener('click', function(){
     resultText.innerText = sum
 
 })
+
+minusButton.addEventListener('click', function(){
+
+    let numOne = parseInt(numberOne.value)
+    let numTwo = parseInt(numberTwo.value)
+    
+
+    let sum = numOne - numTwo
+
+    resultText.innerText = sum
+
+})
