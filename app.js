@@ -1,14 +1,19 @@
-let myInput = document.createElement('input')
-myInput.setAttribute('type', 'number')
+// let headerOne = document.createElement('h1')
+// headerOne.innerText = 1 + 1
 
-let myButton = document.createElement('button')
-myButton.innerText = 'Показать'
+// let headerTwo = document.createElement('h1')
+// headerTwo.innerText = 1 + 1
 
-let myParag = document.createElement('p')
-myParag.innerText = 'Здесь что-то написано'
+
+// body.appendChild(headerOne)
+// body.appendChild(headerTwo)
 
 
 let body = document.querySelector('body')
-body.appendChild(myInput)
-body.appendChild(myButton)
-body.appendChild(myParag)
+
+for(let start = 1; start < 6; start = start + 1 ) {
+    let header = document.createElement('h1')
+    header.innerText = 1 + 1
+
+    body.appendChild(header)
+}
