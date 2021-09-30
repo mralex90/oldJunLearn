@@ -1,15 +1,17 @@
+let carObj = {name: 'BMW', color: 'red', year: 2020}
+
+console.log(carObj)
+
 let body = document.querySelector('body')
+let name = document.createElement('p')
+name.innerText = carObj.name
 
-let car = 'BMW'
+let color = document.createElement('p')
+color.innerText = carObj.color
 
-let carObj = {name: 'BMW', color: 'red'}
-let age = 'age= ' + 30
-let sum = 1 + 1
-let cityArr = ['new york', 'Tokyo', 'London']
+let year = document.createElement('p')
+year.innerText = carObj.year
 
-
-console.log(cityArr[0]);
-console.log(sum)
-console.log(age)
-console.log(car);
-console.log(carObj);
+body.appendChild(name)
+body.appendChild(color)
+body.appendChild(year)
