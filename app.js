@@ -15,7 +15,7 @@ let color = document.createElement('p')
 color.innerText = carObj.color
 
 let year = document.createElement('p')
-year.innerText = carObj.yea
+year.innerText = carObj.year
 
 body.appendChild(name)
 body.appendChild(color)
