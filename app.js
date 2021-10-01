@@ -1,4 +1,3 @@
-debugger
 
 let carObj = {name: 'BMW', color: 'red', year: 2020}
 
