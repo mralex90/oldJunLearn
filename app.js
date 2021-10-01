@@ -9,7 +9,7 @@ let body = document.querySelector('body')
 let carName = carObj.name
 
 let name = document.createElement('p')
-name.innerText = carObj.nam
+name.innerText = carObj.name
 
 let color = document.createElement('p')
 color.innerText = carObj.colo
