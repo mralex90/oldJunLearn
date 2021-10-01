@@ -9,13 +9,13 @@ let body = document.querySelector('body')
 let carName = carObj.name
 
 let name = document.createElement('p')
-name.innerText = carObj.name
+name.innerText = carObj.nam
 
 let color = document.createElement('p')
-color.innerText = carObj.color
+color.innerText = carObj.colo
 
 let year = document.createElement('p')
-year.innerText = carObj.year
+year.innerText = carObj.yea
 
 body.appendChild(name)
 body.appendChild(color)
