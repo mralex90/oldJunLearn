@@ -1,3 +1,5 @@
+debugger
+
 let carObj = {name: 'BMW', color: 'red', year: 2020}
 
 console.log(carObj)
@@ -5,8 +7,6 @@ console.log(carObj)
 let body = document.querySelector('body')
 
 let carName = carObj.name
-
-debugger
 
 let name = document.createElement('p')
 name.innerText = carObj.name
