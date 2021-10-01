@@ -12,7 +12,7 @@ let name = document.createElement('p')
 name.innerText = carObj.name
 
 let color = document.createElement('p')
-color.innerText = carObj.colo
+color.innerText = carObj.color
 
 let year = document.createElement('p')
 year.innerText = carObj.yea
